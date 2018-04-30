@@ -3,9 +3,7 @@
 ## Variables
 
 "subject"		person number [1-30]
-
 "activity"		Acitivity (WALKING, WALKING_UPSTAIRS, 						WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
-
 "trainortest"	Comes from which raw data train or test. Only in 				"RunAnalysis.txt"
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals  were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (timeBodyaccelerometer-XYZ and timeGravityaccelerometer-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
